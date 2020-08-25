@@ -1,0 +1,354 @@
+﻿l_french:
+
+###################################
+# Seek Allies
+###################################
+ enc_CES_start:0 "La Légion"
+ enc_CES_start_desc:0 "La Légion pourrait être un allié puissant pour notre cause.  "
+ enc_CES_cache:0 "Rendre à César"
+ enc_CES_cache_desc:0 "En signe de bonne foi, nous pouvons offrir des armes énergétiques à César. La Légion prétend ne pas utiliser d'armes à feu, mais cela pourrait changer si elle voit ce que nous pouvons lui offrir."
+ enc_CES_trade:0 "Établir le commerce"
+ enc_CES_trade_desc:0 "La Légion offre peut-être un marché plus petit que celui de RNC, mais elle a quand même des produits que nous voulons.  Au moins des esclaves."
+ enc_CES_common_enemy:0 "Un ennemi commun"
+ enc_CES_common_enemy_desc:0 "Quels que soient nos sentiments pour la Légion, lA RNC est l'ennemi à notre porte.  Nous devons nous concentrer sur eux en premier lieu."
+
+###################################
+# REFORM TRAITS
+###################################
+ military_constructor:0 "La paix par la force"
+ civilian_constructor:0 "La paix par l'abondance"
+ courageous:0 "Courageux"
+ enc_wounded_trait:0 "Blessé"
+ enc_disliked_pragmatist:0 "Pragmatiste impopulaire"
+ enc_army_chief_loyalist:0 "Réformateur Loyal"
+ enc_air_chief_loyalist:0 "Reformateur Loyal"
+ enc_navy_chief_loyalist:0 "Reformateur Loyal"
+ mutant_sympathies:0 "Sympathies envers les Mutants"
+ compassionate_doctor:0 "Docteur compatissant"
+ genius_idealist:0 "Génie idéaliste"
+ salvatore_puppet:0 "Fantoche réticent"
+ loyal_soldier:0 "Soldat loyal"
+ engineering_prodigy:0 "Prodige de l'ingénierie"
+ rebellious:0 "Révolté"
+ enc_fuel_expert:0 "Expert en cellules énergétiques"
+ enc_indy_neidell:0 "Indy Neidell"
+ desert_fighter:0 "Expert en lutte dans le désert"
+
+ vice_president_dornan_trait:0 "Vice President Dornan"
+ vice_president_hayes_trait:0 "Vice President Hayes"
+ vice_president_lynette_trait:0 "Vice President Lynette"
+
+ red_scare:0 "Anti-communiste"
+ red_scare2:0 "Paranoïaque du Communisme"
+ VERONICA_DESC1:0 "L'une des rares survivantes de l'élite du Rio, Veronica ne reculera devant rien tant que la République du Rio Grande ne sera pas libre. Plus dans le chagrin que dans la colère, Veronica consacre sa vie à tuer le tyran qui dirige sa patrie."
+ RAUL_DESC1:0 "Raul a grandi dans un ranch près de Mexico avant que les bombes ne tombent, et se souvient qu'il ne pouvait pas protéger sa soeur. Le réveil de Santa Anna lui a rappelé douloureusement combien d'autres Rafaelas souffraient dans son pays, et il revient maintenant pour mettre les choses au point. Mais parfois, il se souvient encore de l'époque où il réparait les choses."
+###################################
+# REFORM UI
+###################################
+ connect_to_power:0 "Se connecter au réseau"
+ connect_to_power_tt:0 "Se connecter au réseau"
+ connect_to_power_tt_delayed:0 "[!connect_to_power_click]Requiert :\n[!connect_to_power_click_enabled]"
+ army_corps_of_engineers_tt:0 "§YLe Corps des ingénieurs de l'armée!§!"
+ army_corps_of_engineers_tt_delayed:0 "Lassé d'une approche État par État pour restaurer le réseau électrique, le président Granite a autorisé le Corps des ingénieurs à établir une simple liste pour l'Autorité de reconstruction."
+ building_slot_available:1 "Au moins un emplacement de bâtiment disponible"
+ connected_to_power_tt:0 "Connecté au réseau"
+ connected_to_power_tt_delayed:0 "Cet État a été connecté à notre réseau électrique.\n§RLa suppression de la centrale va dé-nationaliser l'État.§!"
+
+ connect_to_power_ttt:2 " - coûts 2 §YÉnergie§! à maintenir."
+ connect_to_power_engineering_tt:2 " - coûts 2 §YÉnergie§! à maintenir."
+ civilian_power_grid:0 "Réseau électrique civil"
+ civilian_power_grid_desc:0 "Permet à un État d'être §GNationalisé§!"
+ modifier_production_speed_civilian_power_grid:0 "§YRéseau électrique civil§! la vitesse de production"
+ modifier_production_speed_civilian_power_grid_desc:0 ""
+ modifier_production_speed_civilian_power_grid_factor:0 "§YRéseau électrique civil§! la vitesse de production"
+ modifier_production_speed_civilian_power_grid_factor_desc:0 ""
+
+ install_police_force_tt_delayed:0 "§gSi une province est trop primitive pour construire un réseau électrique en toute sécurité, nous devrons doter un complexe de police pour le garder en sécurité jusqu'à ce que nous puissions développer davantage la région.§!\n\n[!install_police_force_click]\nRequiert :\n[!install_police_force_click_enabled]"
+ install_police_force_tt:0 "Installer une force de police"
+ install_police_force:100 "Installer un Poste de Police (§Y100§! £manpower_texticon )"
+ enc_police_force_installed:0 "Un Poste de Polcie n'a pas encore été installée."
+
+ legitimacy_TOOLTIP:0 "§Y la Légitimité est\nActuellement affecté par :§!\nPopulation hors de l'Enclave [?enc_percentage_population_non_enclave|%Y]\nPertinence de la légitimité : [?enc_legitimacy_relevance|%Y]\nRésultat Force de légitimité : [?legitimacy_modifier_var|%0+]\n\n§YLes effets de la légitimité actuelle :§!\nGain de pouvoir politique : [?enc_legitimacy_political_power_factor|%2+]\nCroissance de la conformité : [?enc_legitimacy_compliance_growth|%2+]\nVitesse de mobilisation : [?enc_legitimacy_mobilization_speed|%2+]"
+ legitimacy_TOOLTIP_DELAYED:0 "La légitimité représente la mesure dans laquelle nous pouvons défendre notre prétention à être le gouvernement des États-Unis. Comme le pourcentage de notre population hors membres de l'Enclave augmente, il sera vital que nous soyons perçus comme un gouvernement de légitimité ou que nous adoptions des mesures pour rendre les opinions de nos citoyens moins pertinentes."
+
+ legitimacy_variable_details:0 "Population totale : [?enc_total_population|Y0]\nPopulation de l'enclave : [?enclave_population|Y0]\nPourcentage de la population qui est Enclave : [?enc_percentage_population_enclave|%Y]\nPourcentage de la population qui n'est de l'Enclave : [?enc_percentage_population_non_enclave|%Y]\nLes effets de la légitimité : [?legitimacy_modifier_var|%0+]"
+ legitimacy_variable_details2:0 "\n\n§YLes effets de la légitimité actuelle :§!\nGain de pouvoir politique : [?enc_legitimacy_political_power_factor|%2+]"
+
+ reduce_legitimacy_relevance_tt:0 "Réduire la §Mpertinence§! de légitimité par §Y33%§!\n\n"
+
+ arm_rebels_tt:0 "Armer les rebelles (§Y[?Root.enc_rebels_we_have_armed|H0]§! £pol_power))"
+ arm_rebels_tt_delayed:0 "§YArmez les rebelles dans l'État !§!\nLe moment venu, ils se soulèveront si leur demande d'indépendance échoue.\n\n[!arm_rebels_click_enabled]"
+ arm_rebels_tt_cost:0 "Plus de pouvoir politique que §Y[?Root.enc_rebels_we_have_armed|H0]§!"
+ arm_rebels_click:0 "§YArmez les rebelles dans l'État !§!\nLe moment venu, ils se soulèveront si leur demande d'indépendance échoue.\n\n[!arm_rebels_click_enabled]"
+ enc_rebels_armed:0 "§GLes rebelles sont déjà armés !§!\nCet État a des rebelles prêts à prendre le contrôle de l'État."
+ arm_slaves_tt:0 "Armer les esclaves (§Y[?Root.enc_slaves_we_have_armed|H0]§! £pol_power))"
+ arm_slaves_tt_cost:0 "Plus de pouvoir politique que §Y[?Root.enc_slaves_we_have_armed|H0]§!"
+ arm_slaves_tt_delayed:0 "§YArmez les esclaves de l'État !§!\nQuand le moment sera venu, ils se lèveront pour montrer que les Américains se battront toujours pour la liberté.\n\n[!arm_slaves_click_enabled]"
+ arm_slaves_click:0 "§YArmez les esclaves de l'État !§!\nLe moment venu, ils se soulèveront si leur demande d'indépendance échoue."
+ enc_slaves_armed:0 "Cet État a des esclaves prêts à se lever pour la liberté."
+ enc_slaves_armed2:0 "§GDes esclaves déjà armés !§!\nCet État a des esclaves prêts à se lever pour la liberté."
+
+ arm_patriots_tt:0 "Armer les patriotes (§Y[?Root.enc_patriots_we_have_armed|H0]§! £pol_power))"
+ arm_patriots_tt_delayed:0 "§YArmez les patriotes dans l'État !§!\nNous pouvons armer ceux qui s'opposent à la ploutocratie californienne gonflée.\n\n[!arm_patriots_click_enabled]"
+ arm_patriots_tt_cost:0 "Plus de pouvoir politique que §Y[?Root.enc_patriots_we_have_armed|H0]§!"
+ arm_patriots_click:0 "§YArmez les patriotes dans l'État !§!\nSi la situation s'aggrave, ces personnes se lèveront pour défendre leurs droits."
+ enc_patriots_armed:0 "Cet État a des patriotes prêts à se soulever pour l'Amérique."
+
+ arm_patriots_ready_tt:0 "Les patriotes sont prêts"
+ arm_patriots_ready_tt_delayed:0 "Cet État a des patriotes prêts à se soulever une fois que nous aurons commencé le soulèvement par le §YLe soulèvement de l'Ancien Monde§! décision."
+
+ unlock_arm_rebels:0 "Débloque la capacité à §Yarmer les rebelles§! dans tout §YRNC§! indiquer où §YRépublique de Barron§! a un noyau.\n\n"
+unlock_arm_patriots: "Unlocks the ability to §Yarm patriots§! in any core §Y[NCR.GetName]§! state.\n\n"
+ unlock_arm_patriots:0 "Débloque la capacité à §Yles esclaves de bras§! dans tout État de la Légion où elle a un noyau.  Les salauds.\n\n"
+ ENC_rise_slaves:0 "Publier la deuxième proclamation d'émancipation"
+ ENC_rise_slaves_des:0 "Il est temps de rappeler à César que les Américains se battront toujours pour la liberté."
+ arm_slaves_ready_tt:0 "Les esclaves armés"
+ arm_slaves_ready_tt_delayed:0 "Les esclaves dans cet état sont prêts à se soulever à notre signal."
+
+###################################
+# FLAGS
+###################################
+ enc_mid_game:0 "Un certain temps s'est écoulé depuis l'occupation."
+ enc_barons1:0 "Les barons ont établi l'ordre"
+ enc_barons2:0 "Les barons consolident leur pouvoir"
+ enc_red_menace_flag:0 "Le granit doit avoir peur de la menace rouge"
+ enc_communism_defeated_joke_flag:0 "Le communisme vaincu à jamais"
+ enc_nuke_armed:0 "l'Arme nucléaire d'Ashton est armée"
+ enc_court_ordered_elections:0 "La Constitution soutenue par des contrôles et des bilans !"
+ enc_free_press_by_court:0 "La Constitution soutenue par des contrôles et des bilans !"
+ enc_promised_no_peace_with_bos:0 "Promesse de ne pas faire la paix avec la Confrérie"
+ enc_ncr_connections_flag:0 "Connexions avec la §YRNC§!"
+ enc_crackdown_justified:0 "§YRépression§! est justifiée"
+ enc_crackdown_justified_tt:0 "Nous obtenons des justifications pour une §Yrépression§!"
+ vice_president_hayes_flag:0 "Hayes est Vice-Président"
+ enc_nuke_arming:0 "Une bombe nucléaire est armée"
+ enc_nuke_arming_set:50 "La bombe nucléaire d'Ashton sera armée dans §Y50§! jours \n"
+
+ ncr_suspicion_higher_than_5:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y5§! ou plus"
+ ncr_suspicion_higher_than_10:0 "§YSoupçon de RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y10§! ou plus"
+ ncr_suspicion_higher_than_15:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y15§! ou plus"
+ ncr_suspicion_higher_than_20:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y20§! ou plus"
+ ncr_suspicion_higher_than_25:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y25§! ou plus"
+ ncr_suspicion_higher_than_30:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y30§! ou plus"
+ ncr_suspicion_higher_than_35:0 "§YSoupçon de la RNC§! (§Y[?Root.ENC_hiding_cost]§!) est de §Y35§! ou plus"
+
+ ENC_hiding_cost_decreased_5_tt:5 "§YSoupçon de la RNC§! se baissera de §G5§! £pol_power\n\n"
+ ENC_hiding_cost_decreased_10_tt:10 "§YSoupçon de la RNC§! se baissera de §G10§! £pol_power\n\n"
+ ENC_hiding_cost_decreased_15_tt:15 "§YSoupçon de la RNC§! se baissera de §G15§! £pol_power\n\n"
+ ENC_hiding_cost_decreased_20_tt:20 "§YSoupçon de la RNC§! se baissera de §G20§! £pol_power\n\n"
+ ENC_hiding_cost_decreased_25_tt:25 "§YSoupçon de la RNC§! se baissera de §G25§! £pol_power\n\n"
+ ENC_hiding_cost_decreased_30_tt:30 "§YSoupçon de la RNC§! se baissera de §G30§! £pol_power\n\n"
+
+ ENC_hiding_cost_increased_5_tt:5 "§YSoupçon de la RNC§! se baissera de §R5§! £pol_power\n\n"
+ ENC_hiding_cost_increased_10_tt:10 "§YSoupçon de la RNC§! se baissera de §R10§! £pol_power\n\n"
+ ENC_hiding_cost_increased_15_tt:15 "§YSoupçon de la RNC§! se baissera de §R15§! £pol_power\n\n"
+ ENC_hiding_cost_increased_20_tt:20 "§YSoupçon de la RNC§! se baissera de §R20§! £pol_power\n\n"
+ ENC_hiding_cost_increased_25_tt:25 "§YSoupçon de la RNC§! se baissera de §R25§! £pol_power\n\n"
+ ENC_hiding_cost_increased_30_tt:30 "§YSoupçon de la RNC§! se baissera de §R30§! £pol_power\n\n"
+
+ change_legitimacy_tt:0 "Modifie la §YLégitimité§! par §+§![?legitimacy_change_var|+%]§!\n\n"
+ lose_legitimacy_tt:0 "Perte de §+§![?legitimacy_change_var|+%]§! §YLégitimité§!\n\n"
+ gain_legitimacy_tt:0 "Gagne §+§![?legitimacy_change_var|+%]§! §Yen Légitimité§!\n\n"
+ legitimacy_overflow_tt:0 "§MLégitimité excessive convertie en stabilité de base§!\n"
+
+ lose_suspicion_tt:0 "§YSoupçon de RNC§! Se baissera de §+§![?suspicion_change_var|-0]§! £pol_power \n(Actuellement §+§![?ENC_hiding_cost|-0]§!£pol_power )\n\n"
+ lose_suspicion_wasted_tt:0 "§RUne perte de suspicion sera gaspillée !§!\n"
+ gain_suspicion_tt:0 "§YSoupçon de RNC§! augmentera de §+§![?suspicion_change_var|-0]§! £pol_power\n\n"
+
+ gannon_returns:0 "Arcade Ganon est de retour dans l'Enclave"
+ costs_200_caps:200 "£GFX_currency_cap_texticon  §G200§!"
+ costs_200_caps_blocked:200 "£GFX_currency_cap_texticon  §R200 Caps§!"
+
+ enc_salvatores_tolerated_flag:0 "Les Salvatores tolérés"
+ enc_wrights_tolerated_flag:0 "Les Wrights sont tolérés"
+ vice_president_dornan_flag:0 "Vice President Dornan"
+
+ ncr_suspicious_clr_tt:0 "\n§MSupprime la nécessité de se cacher de la [NCR.GetName]§!"
+
+ costs_100_army_experience:100 "Coûte 100 £ d'expérience militaire\n"
+ costs_50_army_experience:50 "Coûte 50 £ l'expérience de l'armée\n"
+ costs_25_army_experience:25 "Coûte 25 £army_experience\n"
+
+ enc_martial_law_blocked:0 "Déjà tenté et échoué."
+ enc_suspend_elections_blocked:0 "Déjà tenté et échoué."
+ enc_has_law:0 "Respect de l'État de droit."
+ enc_empowered_congress:0 "Le Congrès existe"
+###################################
+# DIPLOMACY
+###################################
+ intriguedDistrust:0 "Méfiance intriguée"
+ goodBusiness:0 "Bonnes affaires"
+ potentialPartner:0 "Partenaire potentiel"
+ ourEnemiesFriend:0 "L'ami de notre ennemi"
+ wontShootOnsight:0 "Ne tire pas à vue"
+ relations_increased_20:20 "Relations mutuelles avec §YEnclave§! est amélioré par §G+20§!"
+ relations_increased_30:30 "Relations mutuelles avec §YEnclave§! est amélioré par §G+30§!"
+ erb_independence_faction:0 "Alliance anti-RNC"
+ integrated_economy:0 "Économies intégrées"
+ sabotaged_relations:0 "Relations sabotées"
+ enc_doomed_us_all:0 "Nous sommes tous condamnés. Que dieu nous viennent en aide."
+# POLITICS
+ ENC_elites_party_anti_integration:0 "Anti-Intégrationistes"
+ ENC_elites_party_anti_integration_long:0 "Le parti anti-intégrationniste"
+
+ ENC_people_party_wastelanders_long:0 "Les Habitants des Terres Désolées"
+ ENC_people_party_wastelanders:0 "Les Habitants des Terres Désolées"
+ ENC_people_party_wastelanders_leader:0 "Personne"
+###################################
+# TECHNOLOGY
+###################################
+ enc_civilian_power_grid_tech:0 "Réseau électrique civil"
+##############
+#Baja
+#############
+ rs_puppet_master:0 "Maître Fantoche"
+ rs_puppet_master_desc:0 "Les Fantoches, C'est trop cool !"
+
+ cute:0 "Mignon"
+ cute_desc:0 "Je ne suis pas mignon, je suis mortel !"
+
+ dashingly_handsome:0 "Beau et fringant"
+ dashingly_handsome_desc:0 "Je ne pense pas du tout que ce type sache se battre, mais qu'il soit maudit s'il ne peut pas mettre cet uniforme."
+
+ rs_musician:0 "Musicien"
+
+ rs_ranger_skip_desc:0 "Bien qu'il ne soit pas un politicien de carrière, le Ranger Riley "Skip" Almiron est prêt à utiliser sa popularité pour soutenir une bonne cause. Surtout quand Horrigan a dit à Skip quelle était l'alternative."
+
+ rs_local_sympathiser:0 "Sympathisant local"
+
+ rs_bandito_king:0 "Le roi Bandito"
+
+ rs_baja_blitz:0 "Baja Blitz"
+
+ rs_secret_loyalist:0 "Loyaliste secret"
+###########################################
+# OOB
+###########################################
+ enc_tribals_tt:2 "2 §YInfanterie tribales§! et 4 §Y milices tribales§! apparaissent dans l'État des §YRéservates d'antilopes§! "
+ enc_bos_recruits:0 "§YSoldats de la Confrérie de l'Acier , §! au travail !"
+ thraddlegion1:0 "Les réfugiés de Thradd"
+###### Mexico
+ resistance_support_mexico:0 "§Y[?mexico_legitimacy_value]%§! Soutien à la résistance"
+ mexico_legitimacy_TT:0 "Résistance mexicaine"
+ mexico_legitimacy_TT_DELAYED:0 "Pour une raison quelconque, de nombreuses personnes au Mexique ne veulent pas se battre pour l'Oncle Sam contre Santa Anna. Il faudra du temps et des efforts pour persuader le Mexique que nous avons à cœur leurs intérêts, surtout lorsque nous exigeons des concessions sur les ressources.  \n\n§Y[?mexico_legitimacy_value]%§! du Mexique s'oppose à Santa Anna."
+ electric_grid_core_button:0 "Électrifier"
+ tlaloc_underwater_robots:0 "Robots sous-marins"
+
+
+################ special codes for special people ################################################################################################################
+
+# yellow§Ytext§!
+# £air_experience_20x20
+# £army_experience_20x20
+# £autonomy_texticon
+# £civ_factory
+# £civ_factory_output
+# £command_power_20x20
+# £convoy_texticon
+# £daynight_text
+# £decision_icon_small
+# £decrease_reversed_texticon
+# £decrease_texticon
+# £divisions
+# £efficiency_cap_texticon
+# £efficiency_texticon
+# £increase_reversed_texticon
+# £increase_texticon
+# £infinity_icon
+# £infrastructure_texticon
+# £location_pointer
+# £locked
+# £manpower_texticon
+# £mapicon_port_strike_result_text
+# £mission_efficiency_strip
+# £national_unity_texticon
+# £nato_unit_anti_air_icon_small
+# £nato_unit_anti_tank_icon_small
+# £nato_unit_artillery_icon_small
+# £nato_unit_cavalry_icon_small
+# £nato_unit_engineer_icon_small
+# £nato_unit_heavy_armor_icon_small
+# £nato_unit_infantry_icon_small
+# £nato_unit_light_armor_icon_small
+# £nato_unit_marine_icon_small
+# £nato_unit_mechanized_icon_small
+# £nato_unit_medium_armor_icon_small
+# £nato_unit_modern_armor_icon_small
+# £nato_unit_motorized_artillery_icon_small
+# £nato_unit_motorized_icon_small
+# £nato_unit_mountaineers_icon_small
+# £nato_unit_paratrooper_icon_small
+# £nato_unit_recon_icon_small
+# £nato_unit_rocket_artillery_icon_small
+# £nato_unit_super_heavy_armor_icon_small
+# £navy_experience_20x20
+# £organization_texticon
+# £pol_idea_texticon
+# £pol_power
+# £production_cost
+# £production_naval_cost
+# £right_arrow_texticon
+# £ship_battlecruiser_icon_small
+# £ship_battleship_icon_small
+# £ship_carrier_icon_small
+# £ship_destroyer_icon_small
+# £ship_heavy_cruiser_icon_small
+# £ship_light_cruiser_icon_small
+# £ship_sh_battleship_icon_small
+# £ship_submarine_icon_small
+# £ship_transport_icon_small
+# £stability_texticon
+# £strenght_texticon
+# £supply_texticon
+# £support_AA_small
+# £support_art_small
+# £support_AT_small
+# £support_engineer_small
+# £support_field_hospital_small
+# £support_logistics_small
+# £support_maintenance_small
+# £support_military_police_small
+# £support_rocket_art_small
+# £support_signal_small
+# £technology_texticon
+# £temperature_text
+# £trigger_no
+# £trigger_yes
+# £unit_anti_air_icon_small
+# £unit_anti_tank_icon_small
+# £unit_artillery_icon_small
+# £unit_bicycle_infantry_icon_small
+# £unit_cavalry_icon_small
+# £unit_engineer_icon_small
+# £unit_heavy_armor_icon_AA_small
+# £unit_heavy_armor_icon_art_small
+# £unit_heavy_armor_icon_AT_small
+# £unit_heavy_armor_icon_small
+# £unit_infantry_icon_small
+# £unit_light_armor_icon_art_AA_small
+# £unit_light_armor_icon_art_AT_small
+# £unit_light_armor_icon_art_small
+# £unit_light_armor_icon_small
+# £unit_marine_icon_small
+# £unit_mechanized_icon_small
+# £unit_medium_armor_icon_AA_small
+# £unit_medium_armor_icon_art_small
+# £unit_medium_armor_icon_AT_small
+# £unit_medium_armor_icon_small
+# £unit_modern_armor_icon_AA_small
+# £unit_modern_armor_icon_art_small
+# £unit_modern_armor_icon_AT_small
+# £unit_modern_armor_icon_small
+# £unit_motorized_artillery_icon_small
+# £unit_motorized_icon_small
+# £unit_mountaineers_icon_small
+# £unit_paratrooper_icon_small
+# £unit_recon_icon_small
+# £unit_rocket_artillery_icon_small
+# £unit_super_heavy_armor_icon_AA_small
+# £unit_super_heavy_armor_icon_art_small
+# £unit_super_heavy_armor_icon_AT_small
+# £unit_super_heavy_armor_icon_small
+# £victory_point_texticon
+# £weather_text
+# £wing_rebase_status_texticon

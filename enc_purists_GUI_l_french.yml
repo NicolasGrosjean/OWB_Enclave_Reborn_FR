@@ -1,0 +1,49 @@
+﻿l_french:
+
+ harvest_resources:0 "Récolter des ressources"
+ harvest_resources_tt:0 "Récolter des ressources (§Y[?harvest_resources_manpower_used_temp|0]§! £manpower_texticon )"
+ harvest_resources_tt_delayed:0 "En envoyant des forces terrestres pour établir et protéger l'extraction des ressources, nous pouvons récolter les ressources de cet État.\nRequires:\n[!harvest_resources_click_enabled]"
+
+ harvest_resources_tt_cost:100 "£manpower_texticon §Y100§!"
+ LLW_harvest_resources_active:0 "Récolte déjà des ressources"
+
+ harvest_resources_recall_tt:0 "Rappel de l'équipe d'extraction des ressources ( §G[?harvest_resources_manpower_used|0]§! £manpower_texticon )"
+ harvest_resources_recall_tt_delayed:0 "Commander les forces de l'Etat pour qu'elles retournent à la base.\n\nReturns:\n§Y[?harvest_resources_manpower_used|0]§! £manpower_texticon"
+
+ steal_military_industry_tt:25 "Récupération de l'industrie militaire (§Y25§! £command_power )"
+ steal_military_industry_tt_delayed:0 "\n[!steal_military_industry_click]\nTout ce qui suit est nécessaire :\n[!steal_military_industry_click_enabled]"
+
+ steal_civilian_industry_tt:25 "Sauvetage de l'industrie civile (§Y25§! £command_power )"
+ steal_civilian_industry_tt_delayed:0 "\n[!steal_civilian_industry_click]\nTout ce qui suit est nécessaire :\n[!steal_civilian_industry_click_enabled]"
+
+ establish_outpost_tt:10 "Créer un avant-poste (§Y10§! £command_power )"
+ establish_outpost_tt_delayed:0 "Établir un avant-poste de l'enclave dans cet État, en le plaçant sous notre contrôle direct\n\nEffects:\n[!establish_outpost_click]\n\nRequiert :\n[!establish_outpost_click_enabled]"
+ LLW_outpost_active:0 "Avant-poste actif de l'Enclave"
+
+ abandon_outpost:0 "test"
+ abandon_outpost_tt:0 "Abandonner l'avant-poste"
+ abandon_outpost_tt_delayed:0 "Abandonnez l'avant-poste de l'Enclave dans cet état, en y récupérant la main-d'œuvre.\n\nEffets :\n[!abandon_outpost_click]\n\nRequiert :\n[!abandon_outpost_click_enabled]"
+
+ free_building_slots_for_amount_arms_factory_removed:0 "Peut construire §Y[?amount_arms_factory_removed]§! plus d'ateliers sur les armes"
+
+ add_slaves_tt:0 "Changer d'esclaves ([?slaves_in_state])"
+ add_slaves_tt_delayed:0 "Ajouter des esclaves à l'État, en y récupérant une partie de la main-d'œuvre.\n\nEffets :\n[!add_slaves_click]\n\nRequiert :\n[!add_slaves_click_enabled]"
+
+ LLW_state_container_info:0 "Main d'œuvre utilisée :              [?THIS.harvest_resources_manpower_used|0]\nEsclaves utilisés :                [?THIS.0|0]\nRobots utilisés :                [?THIS.0|0]"
+
+ enc_resistance_LLW:0 "Effondrement dans les Terres désolées"
+ transfer_to_LLW:0 "§Y[THIS.GetName]§! S'effondre dans des Terres Désolées sans loi."
+ robotic_garrison_tt:0 "Déployer les Eyebots"
+ robotic_garrison_tt_delayed:0 "§gNous pouvons fournir du matériel robotique pour soutenir nos braves garçons en noir !§! \n[!robotic_garrison_click]\n\n§YNécessite§!: [!robotic_garrison_click_enabled]Vous ne pouvez déployer que deux ensembles d'Eyebots par État\n§YLes déploiements Eyebots actuels le sont : [?state_robots]§!"
+ robotic_garrison_decrease_tt:0 "Rappeler Eyebots"
+ robotic_garrison_decrease_tt_delayed:0 "§gNos robots sont nécessaires en première ligne, nous devons donc les retirer [THIS.GetName].§!\n\n[!robotic_garrison_decrease_click]§! \nVous devez avoir au moins une paire d'Eyebots pour les rappeler.  \n§YLes déploiements Eyebots actuels le sont : [?state_robots]§!"
+ robotic_garrison_text:0 "[?state_robots_amount|%0]"
+
+ robotic_garrison_icon_tt:0 "Garnison robotique"
+ robotic_garrison_icon_delayed_tt:0 "Retardée"
+
+ ABILITY_ARCHIMEDES_STRIKE:0 "Déployer les §R"Highwater-Trousers"§!"
+ ABILITY_ARCHIMEDES_STRIKE_DESC:21 "Highwater-Trousers (Registration ID USDOD-21TXH) était à la fois une tendance d'avant-guerre et une plateforme orbitale d'armes d'avant la Grande Guerre. Avec le rétablissement de notre liaison montante au Sierra Army Depot, nous pouvons l'utiliser pour frapper les mutants des Terres dévastées !  Highwater-Trousers a [?hercules] volées restantes."
+
+ more_than_24_robots:25 "Nous avons au moins 25 robots de soutien."
+

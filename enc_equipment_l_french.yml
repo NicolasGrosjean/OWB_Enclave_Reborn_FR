@@ -1,0 +1,22 @@
+﻿l_french:
+ ERB_high_fighter_tech_equipment:85 "Chasseur F-85"
+ ERB_high_fighter_tech_equipment_short:85 "Chasseur F-85"
+ ERB_high_fighter_tech_equipment_desc:0 ""
+ ERB_high_fighter_tech:0 "Chasseur F-85"
+ ERB_high_fighter_tech_desc:0 ""
+
+ enclave_light_aircraft_manufacturer:0 "Équipe de conception de chasseur"
+ enclave_medium_aircraft_manufacturer:0 "Équipe de conception de Vertiptère"
+
+ enclave_industrial_concern:0 "US Chemical Corps"
+ enclave_electronics_concern:0 "Commission de l'énergie atomique"
+
+ enclave_motorized_equipment_manufacturer:0 "Équipe"
+enclave_plasma_equipment_manufacturer: "Plasma Weapon Design Team"
+ enclave_plasma_equipment_manufacturer:0 "Armes à plasma"
+
+enclave_tesla_equipment_manufacturer: "Tesla Weapon Design Team"
+ enclave_tesla_equipment_manufacturer:0 "Armes Tesla"
+ enclave_artillery_manufacturer:0 "Équipe"
+
+ vertibird_aircraft_manufacturer:0 "Concepteur de Vertiptère"

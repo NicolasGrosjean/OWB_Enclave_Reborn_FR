@@ -1,0 +1,36 @@
+﻿l_french:
+
+# GOV
+ officer_law_enclave_officers:0 "Officiers de l'Enclave"
+ training_law_navarro_veterans:0 "Vétérans de Navarro"
+ training_law_enclave_academy:0 "Académie de l'Enclave"
+
+ enc_reorganized_economy:0 "Ingénieurs réorganisés"
+
+ enc_disorganized_economy:0 "Ingénieurs désorganisés"
+ enc_disorganized_economy_desc:0 "N'ayant que récemment rallié le même drapeau, les ingénieurs de l'Enclave manquent d'une structure de commandement définitive. Cela entrave considérablement leurs efforts."
+ collapsed_trade:0 "Effondrement du commerce"
+
+ hidden_economy:0 "Économie cachée"
+ hidden_economy_desc:0 "L'Enclave ne fait pas de commerce avec des factions extérieures, car cela pourrait compromettre leur sécuritée.\n"
+
+ enc_press_reformer_propaganda:0 "Propagande des réformateurs"
+ enc_outsider_law_none:0 "Membres de l'Enclave uniquement"
+ enc_outsider_law_volunteers:0 "Volontaires étrangers"
+ has_idea_enc_outsider_law_volunteers:0 "A accepté §YVolontaires étrangers§!"
+
+ enc_outsider_law_purist_bos:0 "Volontaires de la Confrérie"
+ enc_outsider_law_purist_bos_desc:99 "Nous avons déterminé que les membres de la Confrérie disposent de 99,99 pourcent de l'ADN humain non muté par rapport à d'autres personnes extérieures. Nous pourrions envisager d'accepter ceux qui nous ressemblent et de passer un examen génétique minutieux."
+ enc_outsider_law_purist_vlt:0 "Scientifiques de Vault City "
+
+ enc_outsider_law_purist_vlt_and_bos:0 "Accepter les deux"
+
+#youtubers
+# Francis Jesse Augustine I
+# Xenophon
+# Pravus 
+# Shedcape
+# TheWoodstock
+# Doonhamer
+# MrJeager
+ enc_BrenRadNeo:0 "Bren Radneo"
