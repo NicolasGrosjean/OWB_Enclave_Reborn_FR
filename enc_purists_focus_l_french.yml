@@ -1,0 +1,613 @@
+﻿l_french:
+
+ ERB_intellectuals:0 "Enclave"
+ ERB_intellectuals_DEF:0 "L'Enclave"
+ ERB_intellectuals_ADJ:0 "Enclave"
+ ERB_elites:0 "Enclave"
+ ERB_elites_DEF:0 "L'Enclave"
+ ERB_elites_ADJ:0 "Enclave"
+ ERB_people:0 "Enclave"
+ ERB_people_DEF:0 "L'Enclave"
+ ERB_people_ADJ:0 "Enclave"
+ERB_ruler:0 "Enclave"
+ERB_ruler_DEF:0 "The Enclave"
+ERB_ruler_ADJ:0 "Enclave"
+
+ ERB_people_party:0 "Personnel Neutre"
+ ERB_people_party_long:0 "Personnel Neutre"
+ ERB_elites_party:0 "Faction Puriste"
+ ERB_elites_party_long:0 "Faction Puriste"
+ ERB_intellectuals_party:0 "Faction Réformatrice"
+ ERB_intellectuals_party_long:0 "Faction Réformatrice"
+ ERB_ruler_party:0 "Loyalistes de Dornan"
+ ERB_ruler_party_long:0 "Loyalistes de Dornan"
+
+
+ not_allowed_to_core:0 "§Y Enclave§!"
+ ERB_OWB_DESC:0 "Il y a quatre décennies, Navarro a été détruit par les forces de la RNC et de la Confrérie lors d'une frappe conjointe visant à achever le dernier bastion de l'Enclave. Démoralisés, sans chef et sans abri, leurs restes se sont dispersés au vent, pour ne plus jamais être revus. Du moins, c'est ce que la plupart des gens croyaient.\n \n Sous le nez de la RNC endormi, le sergent Dornan a travaillé sans relâche pour réunir sous sa bannière les vestiges de l'Enclave. Il a contacté les nombreuses bases civiles cachées de l'Enclave pour intégrer une nouvelle génération des meilleurs éléments de l'Amérique."
+
+ enc_research_medicine:0 "Médecine"
+
+ break_line:0 "\n\n"
+###################################
+# COMMON
+###################################
+ enc_ourescape:0 "Notre Fuite"
+ enc_ourescape_desc:0 "Il y a des années, nous avons réussi à échapper à la destruction des principales forces de l'Enclave à Navarro. La manière dont nous avons survécu se fait encore sentir aujourd'hui."
+
+ enc_ourchoice:0 "Notre Choix"
+ enc_ourchoice.tt:0 "§YL'Enclave§! organise des élections."
+ enc_ourchoice_desc:0 "Le sergent Dornan est très respecté par les factions réformistes et puristes de l'Enclave. L'Enclave a cependant besoin d'un président. Et le sergent a exprimé son désintérêt à être appelé "monsieur" pour le reste de sa carrière. Il travaille pour gagner sa vie, bon sang !"
+
+ enc_ourpresident:0 "Notre Président"
+ enc_ourpresident.tt:0 "TEST"
+ enc_ourpresident_desc:0 "Nous avons fait notre choix et ce choix va changer l'avenir de l'Enclave et si nous réussissons, de l'Amérique. \nMais qui est vraiment l'homme que nous avons élu ?"
+
+ enc_purge_opposition:0 "Purger l'Opposition"
+ enc_purge_opposition_tt:80 "Plus de §Y80%§! de soutien pour [Root.GetRulingParty]."
+ enc_purge_opposition_desc:0 "Nombreux sont ceux parmi nous qui ne partagent pas notre vision de l'avenir. Il faut s'occuper d'eux."
+ purists_purged_tt:0 "§RLes Conseillers Puristes sont purgés!§!"
+ reformers_purged_tt:0 "§RLes Conseillers Réformateurs sont purgés !§!\n"
+
+###################################
+# PURITY
+###################################
+ enc_purity:0 "Pureté"
+ enc_purity_desc:0 "Même après tous ces revers, notre vision du retour de la véritable humanité n'a pas faibli. En fait, la plupart des faibles d'esprit et des défaitistes ont déjà quitté notre milieu. Nous purifierons les mutants de ce monde et récupérerons notre patrie bien-aimée. À tout prix."
+
+ enc_vaulttechhq:0 "Siège de Vault-Tec"
+ enc_vaulttechhq_desc:0 "Avant la Grande Guerre, notre gouvernement travaillait en étroite collaboration avec une société appelée Vault-Tec.  Les bunkers souterrains qu'ils ont construits pourraient être notre dernier espoir de trouver d'autres humains non mutés. L'emplacement de ces bunkers a été perdu dans le temps, mais nous avons des raisons de croire que ces informations peuvent être trouvées au siège de Vault-Tec. Nous pouvons monter une expédition pour les récupérer, ainsi que tous les autres objets de valeur que nous trouverons."
+
+ enc_remnants:0 "Contacter les Restes"
+ enc_remnants_desc:0 "De nombreux vétérans de l'Enclave sont dispersés dans les Terres Désolées. Appelons ceux qui sont encore fidèles au gouvernement américain à revenir au bercail."
+
+ enc_radio_purity:0 "Radio Enclave"
+ enc_radio_purity_desc:0 "Nous pouvons reconstruire les puissantes balises radio du Sierra Army Depot, ce qui nous permettra de diffuser notre signal à travers les Terres Désolées. Cela sera inestimable pour organiser des expéditions à longue distance ainsi que pour atteindre tous les vestiges encore fidèles à l'Enclave."
+
+ enc_call_veterans:0 "Contacter les Vétérans"
+ enc_call_veterans_desc:0 "De nombreux Vétérans de l'Enclave sont allés plus loin que les autres Restes de l'Enclave. Grâce à des ressources considérables, nous pouvons retrouver ces hommes et femmes inestimables et les faire rejoindre leurs frères et sœurs d'armes."
+
+ oldscientists:0 "Scientifiques Survivants"
+ oldscientists_desc:0 "Notre avantage technologique est le plus grand atout que nous possédons par rapport aux mutants. Organisons les chercheurs loyalistes que nous avons récupérés en équipes capables de maintenir cet avantage."
+
+ enc_expansion:0 "Prendre New Reno"
+ enc_expansion_desc:0 "Le moral s'étant amélioré, il est temps de regarder vers l'extérieur et de préparer la libération des territoires occupés par les mutants qui nous entourent. Beaucoup d'entre eux sont assis sur des équipements militaires qui ont une valeur indispensable pour nos objectifs. Nous commencerons par New Reno, notre ancienne cachette."
+
+ openthevaults:0 "Ouvrir les Abris"
+ openthevaults_desc:0 "Le temps est venu d'ouvrir les derniers Abri de contrôle contenant des populations humaines en bonne santé. Celles qui acceptent de nous rejoindre peuvent être ajoutées à nos effectifs et celles qui n'ont pas d'autres usages..."
+
+ enc_protectors:0 "Protecteurs de l'Humanité"
+ enc_protectors_desc:0 "Nous sommes les derniers vrais humains en Amérique. Peut-être même ailleurs dans le monde. Nous portons sur nos épaules l'héritage d'un millier de civilisations."
+
+ enc_slave_labour:0 "Travail Forcé"
+ enc_slave_labour_desc:0 "En asservissant les mutants aborigènes, ils peuvent être utiles à la reconstruction de l'Amérique, en trouvant un but à leur existence gaspilleuse au service de notre pays. "
+
+ enc_slave_labour_collars:0 "Colliers d'Esclaves"
+ enc_slave_labour_collars_desc:0 "Conçu par les scientifiques d'avant-guerre comme une méthode efficace de contrôle dans les camps de prisonniers et les expériences de recherche, ce système nous permettra de contrôler la population esclave plus efficacement et avec un minimum de risques."
+
+ enc_slave_labour_mutants:0 "Esclaves Super-Mutants"
+ enc_slave_labour_mutants_desc:0 "En utilisant les monstrueux Super Mutants produits par le Maître, nous pouvons augmenter la vitesse à laquelle nos bâtiments sont construits. Cependant, ces bêtes restent une force avec laquelle il faut compter et tout signe de résistance doit être traité rapidement et avec un extrême préjudice."
+
+enc_energy_prod:0 "Plasma Weapon Production"
+enc_energy_prod_desc:0 "By focusing DARPA's efforts on Energy Weapon Production, we can improve on several models of Plasma weaponry created before and after the Great War."
+
+enc_energy_commission:0 "US Department of Energy"
+enc_energy_commission_desc:0 "The Department of Energy is responsible for managing the power generation and retention of the Enclave."
+
+enc_pa_prod:0 "Advanced Power Armour Production"
+enc_pa_prod_desc:0 "By focusing DARPA's efforts on Power Armour Production, we can begin to further advance and improve upon the venerable T-51b, X-01, and even the X-02 Power Armour systems, further widening the gap between ourselves and those who dare steal American Military assets. "
+
+ enc_complete_chaos:0 "Chaos Total"
+
+ enc_secret_service:0 "Services Secrets Américains"
+ enc_secret_service_desc:0 "L'UNSS protégeait autrefois notre trésor et notre président des menaces tant étrangères que nationales. Avec la recréation de cette institution, nous assurerons à la fois notre avenir économique et notre base de pouvoir contre les menaces intérieures et extérieures."
+
+ prewar_tactics:0 "Tactiques d'Avant-Guerre"
+ prewar_tactics_desc:0 "Ce sont les tactiques transmises à travers les générations d'officiers et de commandants, dérivées de celles utilisées pour libérer Anchorage et anéantir la République populaire de Chine, avant que les vils communistes n'apportent le feu de l'enfer nucléaire sur nous."
+
+ enc_uscc:0 "Corps Chimique Américain"
+ enc_uscc_desc:0 "L'USCC était autrefois la première affectation de tout citoyen de l'Enclave ayant un esprit scientifique, et avec sa renaissance, le plus ambitieux des projets renaît : Le virus Curlin."
+
+ enc_FEV_experiments:0 "Reprendre les Expériences F.E.V."
+ enc_FEV_experiments_desc:0 "En reprenant les projets F.E.V. de Mariposa, nous allons nous engager sur une voie qui pourrait bien nous mener à la perfection. Autrefois, l'Amérique recherchait la perfection et a été amenée au plus bas beaucoup trop tôt. Aujourd'hui, nous allons chercher la perfection et la trouver, ou mourir en essayant."
+
+ enc_perfect_human:0 "L'Humain Parfait"
+ enc_perfect_human_desc:0 "Le deuxième objectif du projet F.E.V. était de créer le soldat ultime. Il y a des décennies, nous avons accompli quelque chose qui s'en rapprochait sous la forme de Frank Horrigan. Il est temps de continuer là où nous nous sommes arrêtés et de perfectionner notre formule."
+
+ enc_mutant_extinction:0 "Extinction des Mutants"
+ enc_mutant_extinction_desc:0 "L'objectif initial du projet F.E.V. était de synthétiser un agent biologique d'une létalité indicible. Bien qu'il semble que le F.E.V. Curling-13 soit perdu à jamais, nous pouvons peut-être nous rabattre sur le Curling-9. Un virus ciblant uniquement les personnes mutées par le F.E.V. original lancé après la Grande Guerre."
+
+ enc_poison_bear:0 "Empoisonner l'Ours"
+ enc_poison_bear_desc:0 "Le temps est venu de mettre à sac ces rebelles de Californie qui souillent cette nation par leur existence même. Aujourd'hui, nous vengeons Navarro, l'enclave de la station de contrôle et tous ceux qui ont été assassinés par le RNC. Aujourd'hui, nous fixons les têtes de l'Ours sur le mur de l'histoire."
+
+ enc_poison_bull:0 "Empoisonner le Taureau"
+ enc_poison_bull_desc:0 "Le temps est venu de nettoyer le Sud-Ouest de cette parodie pseudo-romaine de l'ancien Empire. Nous ne permettrons plus qu'un seigneur de guerre et ses chiens enragés se battent pour le barrage Hoover et les États de l'Arizona, du Nouveau-Mexique, du Colorado et de l'Utah. L'Empire romain est mort une fois, et la mort de cette légion de fous lui permettra de se reposer, sa mémoire est intacte."
+
+ enc_antelope_annex:0 "Traiter avec Les Tribus du Nord"
+
+ enc_expedition_mariposa:0 "Expédition à Mariposa"
+ enc_expedition_mariposa_desc:0 "Il y a longtemps, nous contrôlions la base de Mariposa et nous utilisions des esclaves pour creuser les niveaux les plus bas, ce qui nous fournissait un approvisionnement presque illimité de F.E.V. produit là-bas. En envoyant une équipe de chercheurs et de soldats à la base de Mariposa, nous pouvons enfin redécouvrir tous ses secrets."
+ enc_expedition_mariposa_tt:0 "Une expédition à la base de §YMariposa§! est montée."
+
+ enc_depot_start:0 "Le Sierra Army Depot"
+ enc_depot_start_desc:0 "Le Sierra Army Depot est resté relativement non localisé grâce à ses défenses automatisées. Elles devraient répondre à nos codes d'accès militaires, nous laissant libres d'accéder aux niveaux inférieurs intacts du dépôt pour installer notre nouvelle base d'opérations."
+
+ enc_depot_airport:0 "Reconstruction de la Piste d'Atterrissage"
+ enc_depot_airport_desc:0 "Le deuxième hangar du Sierra Army Depot est caché dans les profondeurs du sous-sol. Conçu pour servir de plan d'urgence, il contient plusieurs VB-02 et les moyens de les faire fonctionner aussi bien que le jour où ils ont été enterrés."
+
+ enc_depot_robot:0 "Reprogrammation des Défenses Robotiques"
+ enc_depot_robot_desc:0 "Les défenses automatisées du Sierra Army Depot sont à l'abri des pillages depuis deux siècles jusqu'au retour de leurs propriétaires légitimes. Ajustons la programmation des machines les plus opérationnelles pour servir de division de terrain."
+ enc_depot_robot_tt:0 "Deux divisions de §YLight Robots§! sont formés dans le §YSierra Army Depot§!.\n"
+
+ enc_depot_research:0 "Récupération des Archives"
+ enc_depot_research_desc:0 "Une grande partie de nos recherches a été perdue à Navarro, Poséidon et l'exode qui en a résulté. Même nos protocoles de communication ont dû être rétablis. Alors, récupérons ce que nous pouvons des serveurs et des archives du Sierra Army Depot. Certaines de ces informations sont certainement adaptées à nos besoins."
+
+ enc_depot_lower:0 "Excavation des Niveaux Inférieurs"
+ enc_depot_lower_desc:0 "Nos codes militaires nous donnent accès à des parties du dépôt qui sont presque entièrement intactes. Ouvrons l'ancien dépôt d'armes et de maintenance et récupérons ce que nous pouvons."
+
+ enc_depot_end:0 "Notre Nouvelle Base d'Opérations"
+ enc_depot_end_desc:0 "Bien que certaines parties de la base soient encore en mauvais état, nous avons trouvé une excellente base d'opérations pour le moment. Nous pouvons consacrer une partie des machines qui restent ici à la production d'équipements."
+
+ enc_cloning:0 "Expériences de Clonage"
+ enc_cloning_desc:0 "Nous devons prendre conscience que notre population est à un niveau insoutenable et que dans quelques décennies, l'enclave va mourir. Nous pouvons cependant l'empêcher. En consacrant beaucoup de temps, de ressources et de main-d'œuvre, nous pouvons entamer le long processus de création de clones viables à partir du matériel génétique des citoyens passés et présents de l'Enclave et des États-Unis."
+
+ enc_remember_rig:0 "Ne Pas Oublier la Platforme"
+ enc_remember_rig_desc:0 "Il y a quatre décennies, notre base d'opérations a été sabotée. Beaucoup de nos anciens gardes ont perdu des camarades et des membres de leur famille dans l'explosion qui a suivi. Cet acte n'a pas été sanctionné dans les décennies qui ont suivi. Mais nous n'avons pas oublié. "
+
+ enc_mobilize_manpower:0 "Réorganiser les Troupes"
+ enc_mobilize_manpower_desc:0 "Des décennies de séparation et d'isolement ont fait des ravages dans notre organisation militaire. Officialisons notre chaîne de commandement et combinons les différents groupes séparés sous notre direction en une Enclave unie des forces armées."
+
+ enc_mobilize_economy:0 "Réorganiser les Ingénieurs"
+ enc_mobilize_economy_desc:0 "Nos ingénieurs ont travaillé dur pour réparer les armures assistées et les armements usés. Mais leur travail est ponctuel et inefficace. Nous pouvons les organiser de la même manière que l'armée pour nous assurer que leur expertise est utilisée à son plein potentiel."
+
+ enc_ANT_annex:0 "Faire Disparaître les Autochtones"
+ enc_ANT_annex_tt:0 "Gagne un but de guerre §YAnnex§! contre quiconque contrôle le comté de §YModoc§!"
+ enc_ANT_annex_desc:0 "Au Nord, il y a plusieurs tribus de mutants aborigènes qui squattent les ressources, et surtout le sol américain. Il est temps d'éradiquer ce fléau."
+
+ enc_excavate_carson_city:0 "Piller Carson City"
+ enc_excavate_carson_city_desc:0 "Moins nous sommes obligés d'interagir avec les squatters dégénérés de Carson city, mieux c'est. Nous pouvons simplement récupérer ce dont nous avons besoin dans la ville et l'apporter à notre quartier général au Sierra Army Depot."
+
+ enc_yakuza_keep:0 "Utiliser Carson City"
+ enc_yakuza_keep_desc:0 "Nous pouvons utiliser les usines existantes à Carson city pour nos besoins. Bien qu'une interaction régulière avec les mutants de la ville ne soit pas très bonne pour le moral."
+
+ enc_ANT_cache:0 "La Cache Militaire du Comté de Modoc"
+ enc_ANT_cache_desc:0 "A leur insu, les indigènes squattaient une importante cache de matériel militaire d'avant-guerre. Une fois qu'ils auront été éliminés, nous pourrons nous concentrer sur la récupération de ces équipements pour nos besoins."
+
+ enc_ANT_cache_resourceful:0 "Le Surplus Militaire"
+ enc_ANT_cache_resourceful_desc:0 "Il y a des caches de matériel plus anciennes, pour ceux qui ne se considèrent pas au-dessus de creuser pour des antiquités..."
+
+ enc_remember_navarro:0 "Se souvenir de Navarro"
+ enc_remember_navarro_desc:0 "Nos membres les plus anciens se souviennent clairement de l'époque où la RNC et la Confrérie sont tombés sur Navarro. Coupés de la direction de l'Enclave, ils n'en ont pas moins combattu courageusement. Si la plupart d'entre nous ont échappé au massacre, ceux qui sont restés pour retarder nos ennemis sont morts en héros américains. Il est temps que nous nous souvenions de leur sacrifice."
+
+ enc_anti_bos_propaganda:0 "Propagande Anti-Confrérie"
+ enc_anti_bos_propaganda_desc:0 "Bien que nos jeunes membres ne se souviennent pas de leurs crimes contre nous à Navarro, nous avons de nombreuses raisons de chercher à détruire ces boy-scouts en armure assistée. Rassemblons nos griefs dans des émissions pour rappeler à nos soldats pourquoi nous nous battons."
+ enc_anti_bos_propaganda_tt:0 "Déverrouille les décisions de §YPropagande Anti-Confrérie§ ! lorsque l'Enclave est en guerre avec la §YConfrérie de l'Ouest§!."
+
+ enc_reclaim_cashes:0 "Reconquérir les Bases de l'Armée Californienne"
+ enc_reclaim_cashes_desc:0 "La RNC occupe illégalement de nombreuses bases militaires américaines. Une fois que nous les aurons récupérées, nous pourrons nous atteler à les excaver et à récupérer ce qui n'a pas encore été pillé par les mutants."
+ enc_reclaim_cashes.tt:0 "Débloqué les décisions §YRéclamer les caches§! Celles-ci vous permettent de fouiller et de piller des bases militaires secrètes dans toute la Californie."
+
+ enc_reclaim_navarro:0 "Reconquérir Navarro"
+ enc_reclaim_navarro_desc:0 "Nous pouvons enfin récupérer notre ancienne base d'opérations. Ce seul fait est un bon coup de pouce pour le moral, mais il y a plus à gagner car la base abrite une grande partie de nos recherches les plus avancées et les plus secrètes."
+
+ enc_radio_purity_2:0 "Étendre les Balises"
+ enc_radio_purity_2_desc:0 "Avec nos ingénieurs en bon ordre, nous pouvons commencer à étendre la portée et la puissance de nos balises radio."
+
+ enc_rangers_start:0 "La Question Ranger"
+ enc_rangers_start_desc:0 "Nous sommes arrivés à la frontière d'une parodie des rangers américains d'avant-guerre. Nous devons nous préparer au risque qu'ils s'alignent sur la RNC, nous entraînant dans une guerre à deux fronts."
+
+ enc_rangers_defense:0 "Tenir la Ligne"
+ enc_rangers_defense_desc:0 "Nous devrions nous concentrer sur la RNC et nous occuper des Rangers par la suite. Préparons-nous en conséquence."
+
+ enc_rangers_defense_forts:0 "La Ligne Richardson"
+ enc_rangers_defense_forts_desc:0 "Nommé d'après notre défunt président Dick Richardson, nous allons ériger une longue et dure ligne de fortifications pour dissuader toute pénétration des Rangers dans nos arrières exposés."
+
+ enc_rangers_defense_sabotage:0 "Sabotage des Lignes d'Approvisionnement"
+ enc_rangers_defense_sabotage_desc:0 "Approvisionner une armée à travers le désert est un cauchemar logistique. Si les rangers sont habitués à cette tâche, leur système d'approvisionnement dépend toujours de quelques routes et caches d'approvisionnement vulnérables. Des préparatifs adéquats nous permettront d'endommager gravement leurs lignes de ravitaillement d'un seul coup."
+
+ enc_rangers_defense_lessons:0 "Leçons de la Construction"
+ enc_rangers_defense_lessons_desc:0 "Nos ingénieurs ont acquis beaucoup d'expérience pratique dans la construction de fortifications au cours des derniers mois. Nous pouvons consolider leurs connaissances en leur demandant de bien documenter leurs conclusions."
+
+ enc_rangers_defense_plan:0 "Planifier Notre Défense"
+ enc_rangers_defense_plan_desc:0 "Même une défense a besoin d'un plan, les bonnes préparations aideront nos soldats à tenir la ligne face aux rangers."
+
+ enc_rangers_offense:0 "Poussez les Rangers"
+ enc_rangers_offense_desc:0 "Un coup de foudre à travers les Rangers pourrait nous amener directement aux portes de la capitale de la RNC. Nous devrions nous préparer à une forte poussée et à relever les défis d'une guerre offensive à travers un désert."
+
+ enc_rangers_offense_training:0 "Formation au Désert"
+ enc_rangers_offense_training_desc:0 "Les déserts exigent un changement de tactique et de protocole militaires. Avec un entraînement adéquat, nous pouvons préparer nos soldats à relever ces défis."
+
+ enc_rangers_offense_infrastructure:0 "Améliorer nos Lignes d'Approvisionnement"
+ enc_rangers_offense_infrastructure_desc:0 "Approvisionner une armée qui pousse dans le désert est un défi que nous devons être prêts à relever. L'amélioration de nos lignes d'approvisionnement existantes sera inestimable le moment venu."
+
+ enc_rangers_offense_lessons:0 "Leçons de la Construction"
+ enc_rangers_offense_lessons_desc:0 "Nos ingénieurs ont acquis beaucoup d'expérience pratique dans la construction d'infrastructures au cours des derniers mois. Nous pouvons consolider leurs connaissances en leur demandant de documenter correctement leurs conclusions."
+
+ enc_rangers_offense_plan:0 "Planifier notre Attaque"
+ enc_rangers_offense_plan_desc:0 "Si aucun plan ne survit au contact avec l'ennemi, en avoir un tend à aider nos soldats à le faire."
+
+ enc_god_bless:0 "Que Dieu Bénisse l'Enclave"
+ enc_god_bless_desc:0 "Si nous avons de nombreuses raisons de nous souvenir du passé, il est grand temps de nous tourner vers l'avenir. Un avenir américain, débarrassé de la menace mutante qui occupe notre chère patrie. \nDieu bénisse l'enclave ! \nQue Dieu bénisse l'Amérique !"
+
+ enc_yakuza_annex:0 "Traiter avec les Yakuza"
+ enc_yakuza_annex_tt:0 "Gagne unbut de guerre §YAnnex§! contre quiconque contrôle §YCarson City§!"
+ enc_yakuza_annex_desc:0 "La seule chose qui soit pire que les mutants, ce sont les mutants étrangers. Ne perdons pas de temps pour éliminer cette infestation criminelle de notre sol."
+
+ enc_war_with_bos:0 "Guerre avec la Confrérie"
+ enc_war_with_bos_desc:0 "La Confrérie de l'Acier est un vieil ennemi. Bien que la distance qui nous sépare les ait éloignés de notre esprit, ce temps est passé. Ils ne constitueront plus une menace pour l'existence des États-Unis lorsque nous en aurons fini avec eux."
+
+ enc_depot_lab:0 "Réouverture du Laboratoire de la Sierra"
+ enc_depot_lab_desc:0 "Dans les profondeurs du Sierra Army Depot se trouve ce qui reste d'un laboratoire axé sur la guerre biologique. Ici, au milieu des ruines, se trouve une seule fiole de Curling-2. Un précurseur de la toxine mortelle perdue lors de la destruction de Poseidon Oil."
+
+ enc_vlt_annex:0 "Prendre Vault City"
+ enc_vlt_annex_tt:0 "Gagne un but de guerre §YAnnex§! contre quiconque contrôle §YVault City§!"
+ enc_vlt_annex_desc:0 "Nos yeux tombent sur une anomalie dans les Terres Désolées. Une ville avancée construite à partir d'un abri d'avant-guerre. Nous devons néanmoins agir avec préjudice et nous soumettre la ville par la force."
+
+ enc_vlt_annex_diplo:0 "L'Ultimatum"
+ enc_vlt_annex_diplo_desc:0 "Nos yeux tombent sur une anomalie dans les Terres Désolées. Une ville avancée construite à partir d'une voûte d'avant-guerre. Si ils sont aussi civilisés qu'ils le paraissent, il vaut peut-être la peine d'essayer de les raisonner."
+
+ enc_vlt_labs:0 "Pillez les Laboratoires"
+ enc_vlt_labs_desc:0 "La technologie médicale est d'une valeur incommensurable pour nos objectifs en raison de notre faible nombre par rapport aux mutants. Les laboratoires de Vault City disposent de nombreuses technologies médicales d'avant-guerre ainsi que de leurs propres avancées. De plus, l'état avancé de la ville par rapport au reste des Terres Dévastées a donné lieu à l'idée que nous pourrions avoir affaire à plus que des mutants dégénératifs dans ce cas..."
+
+ enc_vlt_pure:0 "Purifier la Ville"
+ enc_vlt_pure_desc:0 "Avec la ville entre nos mains, nous pouvons commencer à la nettoyer de la menace des mutants. Ne laissant que les quelques personnes suffisamment non mutantes pour être considérées comme des humains."
+
+ enc_vlt_core:0 "Humains à titre Honorifique"
+ enc_vlt_core_desc:0 "La plupart des habitants de Vault City ont été épargnés par les mutations qui ont ravagé les mutants des Terres Dévastées. On pourrait soigneusement argumenter qu'ils devraient être reconnus comme des citoyens américains plutôt que comme des mutants."
+
+ enc_vlt_power:0 "Réparation de la Centrale Électrique"
+ enc_vlt_power_desc:0 "Dans leur ignorance, les habitants de Vault City n'ont jamais été capables de restaurer la centrale électrique voisine à son plein potentiel. Une fois la ville entièrement sécurisée, nous pouvons envoyer nos ingénieurs pour mener à bien cette tâche."
+
+ enc_depot_lab_buff:0 "Intensifier les efforts de recherche"
+ enc_depot_lab_buff_desc:0 "Avec le Sierra Lab en bon ordre, nous pouvons accroître nos efforts de recherche à la hauteur de nos ambitions."
+
+ enc_lessons_from_the_war:0 "Leçons de la Guerre"
+ enc_lessons_from_the_war_desc:0 "La guerre contre la RNC ne ressemble à aucun autre conflit dans lequel l'Enclave s'est engagée depuis des siècles. C'est un appel à nos généraux à réinventer leurs doctrines ou à risquer la destruction totale de l'humanité."
+
+ enc_anti_ncr_propaganda:0 "Propagande Anti RNC"
+ enc_anti_ncr_propaganda_desc:0 "Même si nos jeunes membres ne se souviennent pas de leurs crimes contre nous à Navarro, nous avons de nombreuses raisons de chercher à détruire la RNC. Rassemblons nos critiques dans des émissions pour rappeler à nos soldats pourquoi nous nous battons."
+
+ anti_ncr_propaganda_tt:0 "Déverrouille les décisions de propagande §YPropagande Anti-RNC§! lorsque l'Enclabe est en guerre avec la §YRépublique de Nouvelle Californie§!"
+ enc_extend_presidential_powers:0 "Étendre les Pouvoirs Présidentiels"
+ enc_extend_presidential_powers_desc:0 "Le président de l'Enclave est plus puissant que ses homologues d'avant-guerre, mais néanmoins limité par certaines restrictions. Face à notre victoire finale contre la RNC, nous pouvons supprimer ces restrictions et accorder à notre président un pouvoir total sur l'Enclave et l'Amérique."
+ enc_emergency_draft:0 "Projet d'Urgence"
+ enc_emergency_draft_desc:0 "Si le besoin s'en fait sentir, nous devons être prêts à incorporer dans les forces de l'Enclave tout personnel non essentiel provenant de départements non militaires."
+ enc_emergency_draft_tt:0 "§YProjet d'Urgence§! peut être retiré par décision."
+
+ enc_new_annex_tt:0 "Gagne un but de guerre §YAnnex§ ! contre quiconque contrôle §YNew Reno§!"
+
+###################################
+# PURITY - ARMY
+###################################
+ enc_strike_teams:0 "Doctrine de l'Équipe d'Intervention"
+ enc_strike_teams_desc:0 "La structure de commandement de l'Enclave a toujours été orientée vers des frappes chirurgicales et un déploiement limité. Avec les bons ajustements, cette doctrine peut être adaptée pour une guerre à bien plus grande échelle."
+
+ enc_verti_focus:2 "Rationaliser la Production VB-02"
+ enc_verti_focus_desc:2 "Le vaisseau de combat VB-02 est un symbole de la puissance de l'Enclave. Bien que capables de les produire, nous avons toujours compté sur les fonds militaires pour en augmenter le nombre. Il est temps de regarder vers l'avenir et de construire plutôt que de piller."
+
+ enc_radio_eyebots:0 "Envoyer des Eyesbots"
+ enc_radio_eyebots_desc:0 "L'Eyebot est une conception simple spécialisée dans le repérage sans pilote ainsi qu'une station de diffusion mobile. La construction et la mise en place d'un réseau de ces robots nous permettra de contacter les restes de soldats qui sont encore hors de portée de nos émissions actuelles et de fournir à nos troupes des informations de reconnaissance."
+
+ enc_army_reform_local:0 "Commandement Localisé"
+ enc_army_reform_local_desc:0 "Les escadrons d'assaut de l'Enclaves ont toujours bénéficié d'une grande autonomie sur le terrain, laissés à eux-mêmes pour atteindre leurs objectifs opérationnels. Nous poursuivrons cette philosophie de commandement même si l'ampleur de nos opérations se transforme en guerre totale."
+
+ enc_rapid_planning:0 "Plans de Bataille Flexibles"
+ enc_rapid_planning_desc:0 "Aucun plan de bataille ne survit au contact avec l'ennemi. Mais ceux qui n'ont pas de plan du tout non plus. Nous donnerons aux commandants des champs de bataille de l'Enclave l'autonomie dont ils ont besoin pour planifier en fonction de leur situation individuelle, tout en gardant nos stratégies simples et flexibles."
+
+ enc_army_reform_command_2:0 "Plans de Bataille Précis"
+ enc_army_reform_command_2_desc:0 "De puissantes stations de diffusion, combinées à une technologie radio avancée, permettent à notre haut commandement de diriger nos troupes de manière instantanée et précise. La populace mutante ne peut pas espérer gagner contre toute la force des militaires de l'Enclave, en agissant avec un seul esprit et un seul but."
+
+ enc_army_reform:0 "Formaliser les Forces"
+ enc_army_reform_desc:0 "La structure de commandement de l'Enclave a toujours été orientée vers des frappes chirurgicales et un déploiement limité. Si nous devons mener une guerre totale, nous devons nous réformer dans ce but."
+
+ enc_advanced_fighter_project:0 "Projet de Chasseur Avancé"
+ enc_advanced_fighter_project_desc:0 "Si nous devenons les maîtres incontestés du ciel américain, nous devons concentrer nos efforts sur la réalisation d'un saut technologique dans la technologie des chasseurs."
+
+ enc_fighters:0 "Suprématie Aérienne"
+ enc_fighters_desc:2 "Pendant des décennies, l'Enclave a régné sans partage sur le ciel. En notre absence, les mutants ont fait décoller leurs propres tas de ferraille. Les VB-02 n'ont jamais été destinés à rivaliser pour la supériorité aérienne et sont des cibles faciles même pour les avions les plus primitifs. Nous allons reconquérir le ciel américain avant de reconquérir le sol américain."
+
+ enc_drop_training:0 "Formation au Parachutage"
+ enc_drop_training_desc:0 "S'aventurer dans les zones d'atterrissage brûlantes a toujours été une entreprise risquée. Mais avec une bonne préparation et un bon entraînement, un assaut aérien bien exécuté pourrait être encore plus dévastateur qu'une attaque conventionnelle"
+
+ enc_the_mutant_question_purists:0 "La Question Mutante"
+ enc_the_mutant_question_purists_desc:0 "Avec la destruction de la Nouvelle-Californie et les colliers d'esclaves posés sur le cou des "chefs" des sauvages, le temps est venu de décider du sort de la population mutante de Californie. Bien que les partisans de la ligne dure réclament leur asservissement et leur extermination, certains au sein de l'Enclave pensent qu'avec des tests génétiques appropriés, nous pourrions encore les sauver.  Et même les puristes purs et durs admettent que nous avons une main-d'œuvre prête..."
+
+ enc_mesmerizing:0 "Ensorceler les Mutants"
+ enc_mesmerizing_desc:0 "Un dispositif expérimental de contrôle mental d'avant-guerre peut être utilisé pour amener la population des Terres Dévastées à se mettre en conformité. Malheureusement, certains des mutants souffriront de ce que les médecins appellent la combustion crânienne spontanée."
+ enc_vitamins:0 "Des Vitamines pour les Victimes de la Peste"
+ enc_vitamins_desc:0 "Même nous avons besoin d'une offre de main-d'œuvre pour le nouveau monde que nous allons construire. Nous pouvons offrir aux mutants de la Nouvelle Californie des vitamines pour qu'ils se rétablissent... avec d'autres effets."
+
+ enc_subjugation:0 "Nettoyer les Terres Désolées"
+ enc_subjugation_desc:0 "Il ne peut y avoir de compromis avec les peuples des Terres Dévastées.  Même si certains d'entre eux ont une intelligence de singe, ils ne sont pas plus intelligents qu'un deathclaw ; et tout aussi dangereux."
+
+ enc_documents:0 "Passes Internes"
+ enc_documents_desc:0 "Vous laissez les rats errer sans contrôle ? Pourquoi devrions-nous alors laisser les mutants ? Un nouveau système de contrôle interne les gardera là où ils doivent rester."
+
+ enc_eyebots_everywhere:0 "Des Eyebot Partout"
+ enc_eyebots_everywhere_desc:0 "Les Eyebots ne sont pas seulement bons pour les chansons de marche. Ils nous aideront aussi à trouver les repaires des guérilleros mutants."
+
+ enc_solution_to_mutant_question:0 "Un Monde Meilleur"
+ enc_solution_to_mutant_question_desc:0 "Une partie du travail du président consiste à prendre les décisions difficiles. Beaucoup de quasi-hommes vont sacrifier leur vie pour le retour de l'humanité. Les humains l'emporteront !"
+ enc_robot_engineering:0 "Fabrication Robotique"
+ enc_robot_engineering_desc:0 "Malheureusement, nous manquons de main-d'œuvre pour gérer les Terres Désolées. Mais nous pouvons utiliser nos robots pour exploiter les ressources des Terres Désolées."
+ enc_robot_tt:0 "Débloque la capacité d'un État à transférer des ressources vers l'Enclave depuis les §RTerres Désolées Sauvages§!"
+
+ enc_robot_engineering_2:0 "Autonomie Robotique"
+ enc_robot_engineering_2_desc:0 "Nous pouvons offrir une plus grande autonomie à nos robots.  Cela ne fera que les aider à récupérer les épaves des Terres Dévastées."
+ enc_robot_engineering_2_tt:0 "Réduit le §Ycoût des réserves§! du transfert des ressources de §RTerres Désolées Sauvages§! vers l'Enclave !"
+###################################
+# TODO - WIP
+###################################
+
+
+ ENC_officers_central:0 "Commandement Centralisé"
+ ENC_officers_central_2:0 "Commandement Centralisé"
+
+ enc_army_reform_command:0 "Commandement Centralisé"
+ enc_army_reform_command_desc:0 "Les escadrons d'assaut de l'Enclaves ont toujours joui d'une grande autonomie sur le terrain, mais c'était une échelle de guerre différente de celle à laquelle nous sommes confrontés. Dorénavant, tous les commandants de terrain seront dirigés par les esprits les plus aiguisés du haut commandement de l'Enclave."
+
+ ENC_officers_local:0 "Commandement Localisé"
+ ENC_officers_local_2:0 "Commandement Localisé"
+ ENC_verti_production:2 "Production Rationalisée de VB-02"
+
+ ENC_strike_teams:0 "Doctrine de l'Équipe d'Intervention"
+ ENC_drop_training:0 "Doctrine de l'Équipe d'Intervention"
+ ENC_air_supremacy:0 "Focus sur la Suprématie Aérienne"
+
+ ENC_presidential_powers:0 "Dictature Présidentielle"
+
+ enc_silence_congress:0 "Congrès du Silence"
+ enc_silence_congress_desc:0 "Le président de l'Enclave a toujours partagé un certain pouvoir avec un congrès de représentants. Si notre équivalent était au mieux une institution symbolique, leur parole n'en portait pas moins un certain pouvoir et leurs suggestions ont été notées. Il est grand temps qu'ils s'alignent."
+
+ enc_assassinate_F:0 "Assassiner Dr Anderson"
+
+ enc_send_diplomats:0 "Envoyer des Diplomates"
+ enc_no_diplomats:0 "Revendiquer la Légitimité Unique"
+
+ enc_VLT_start:0 "Vault City"
+ enc_VLT_clear:0 "Un Signal Clair"
+ enc_VLT_assert:0 "Affirmer les Vielles Loyautés"
+
+
+
+
+
+
+
+
+
+
+ enc_energy_prod:0 "Production d'Armes à Énergie Avancée"
+ enc_energy_prod_desc:0 "En concentrant les efforts de la DARPA sur la production d'armes à énergie, nous pouvons améliorer plusieurs modèles d'armes à laser, plasma, Gauss et Tesla créés avant et après la Grande Guerre."
+
+ enc_energy_commission:0 "Département Américain de l'Énergie"
+ enc_energy_commission_desc:0 "Le Département de l'Énergie est responsable de la gestion de la production et de la conservation de l'énergie de l'Enclave."
+
+ enc_pa_prod:0 "Production Avancée d'Armures Assistées"
+ enc_pa_prod_desc:0 "En concentrant les efforts de la DARPA sur la production d'armure assistée, nous pouvons commencer à progresser et à améliorer les vénérables systèmes d'armure T-51b, X-01 et même X-02, ce qui élargit encore le fossé entre nous et ceux qui osent voler les ressources militaires américaines. "
+
+ enc_depot_armor:0 "Rationaliser la Fabrication d'Armures Assitées"
+ enc_depot_armor_desc:0 "En concentrant nos efforts sur la production d'armure assistée, nous pouvons commencer à progresser et à améliorer les vénérables systèmes d'armure T-51b, X-01 et même X-02, ce qui creusera encore le fossé entre nous et ceux qui osent voler les ressources militaires américaines. "
+
+ enc_depot_plasma:0 "Armes à Plasma"
+ enc_depot_plasma_desc:0 "En concentrant nos efforts sur la production d'armes énergétiques, nous pouvons améliorer les capacités à les produire rapidement."
+
+ enc_hang_all_raiders:0 "Pendre Tous Les Raiders"
+ enc_rehabilitate_raiders:0 "Réhabiliter les Raiders"
+
+
+################################## OPINIONS&traits&flags  ##############################################################################################################################
+
+ bitterEnemies:0 "Des Ennemis Acharnés"
+
+# trait flags
+ leader_resourceful:0 "Un Leader Ingénieux"
+ leader_inspiring:0 "Un Leader Inspirant"
+ leader_respected_by_scientists_tt:0 "\nDisponible parce que vous êtes §Grespecté par les scientifiques§!"
+
+ exiles_arrived:0 " Les Exilés de la Côte Est sont arrivés"
+
+ enc_air_chief_cas:0 "Spécialiste de l'Appui Aérien"
+ clayton_schultz:0 "Michael Schultz"
+ clayton_schultz_desc:0 "Schultz a voyagé depuis l'installation de Raven Rock dans les Terres Désolées du Capitole dans le cadre d'une mission suicide ordonnée par le Colonel Autumn."
+#######################################DESC############################################################################################
+ Anderson_desc:0 "Le docteur Franklin est un ancien membre du corps des chimistes de l'Enclave et l'actuel président de l'Enclave. Il a participé à plusieurs projets secrets pendant la présidence de Dick Richardson, notamment les expériences FEV de Mariposa et la création de Frank Horrigan. Il cherche à terminer ce que lui et ses collègues ont commencé il y a quatre décennies : l'éradication de la menace mutante qui ose fouler le sol américain. "
+ Granite_desc:0 "Douglas Granite. Commandant de la compagnie Granite, du nom de son défunt père. Le respect que lui inspirent ces divisions a été la clé de sa grande influence au sein de l'Enclave, malgré les idées sur l'avenir de l'Enclave que certains qualifieraient de radicales, d'autres de trahison."
+ benjamin_curling:0 "Benjamin Curling"
+ benjamin_curling_desc:0 "Benjamin Curling a suivi les traces de son père, un chercheur renommé de l'Enclave qui a travaillé pour le Corps chimique américain il y a quatre décennies."
+ sargeant_dornan:0 "Arch Dornan"
+ sargeant_dornan_desc:0 "Arch Dornan était surtout connu comme un sergent instructeur dur à cuire à Navarro. Après la destruction du quartier général, Dornan a gagné le respect de beaucoup en gardant le plus grand groupe de personnes démunies ensemble."
+resourceful: "Resourceful"
+ arcade_gannon:0 "Arcade Gannon"
+
+
+
+ charismatic:0 "Charismatique"
+ leader_charismatic_tt:0 "\nDisponible parce que vous êtes §MCharismatique§!"
+ leader_charismatic_improved_tt:0 "\nAmélioré parce que vous êtes §MCharismatique§!"
+ ruthless:0 "Impitoyable"
+ leader_ruthless_tt:0 "\nDisponible parce que vous êtes §MImpitoyable§!"
+ respectedBySoldiers:0 "Respecté Par Les Soldats"
+ unbreakable_will:0 "Volonté Inviolable"
+ respectedByScientists:0 "Respecté par les Scientifiques"
+ resourceful:0 "Source Précieuse"
+ inspiring:0 "Inspiration"
+ corrupt_sycophant:0 "Un Lèche-Bottes Corrompu"
+ enc_man_of_the_people:0 "Homme du Peuple"
+
+
+ suppressor:0 "Officier Chargé des Génocides"
+ attorney_general:0 "Procureur Général"
+ EPA_director:0 "Directeur de l'APE"
+ enc_paratroopers_commander:0 "Chef d'Équipe d'Assaut Expérimenté"
+ drill_sargeant:0 "Sergent Respecté"
+ purist:0 "Puriste"
+ purist_2:0 "Puriste Enragé"
+ reformer:0 "Réformiste"
+ reformer_2:0 "Un Réformiste Dévoué"
+
+ genocidal_maniacs:0 "Maniaques Génocidaires"
+ dirty_muties:0 "Sales Mutants"
+
+############################################### MISC ###############################################################################################################
+renoenclave:0 "Enclave desc"
+ renoenclave_tooltip:0 "Outil des vétérans de l'Enclave"
+
+
+
+ ENC_ruler:0 "Enclave"
+ ENC_ruler_DEF:0 "L'Enclave"
+ ENC_ruler_ADJ:0 "Enclave"
+
+ ERB_ruler:0 "Enclave"
+ ERB_ruler_DEF:0 "L'Enclave"
+ ERB_ruler_ADJ:0 "Enclave"
+
+ renoenclave:0 "Vétérans de l'Enclave"
+
+ ENC_rangers_defense:0 "Préparations Défensives"
+ ENC_rangers_attack:0 "Préparatifs Agressifs"
+ ENC_rangers_attack_2:0 "Préparatifs Agressifs"
+ ENC_construction_forts:0 "Experience de Fort"
+ ENC_construction_infra:0 "Expérience en Infrastructures"
+ ENC_desert_training:0 "Formation au Désert"
+
+ enc_rangers_offense_training_tt:0 "Modifiez §YPréparations Agressives§! par Attrition de chaleur : §G-50.00%§!"
+
+ ENC_water_contaminated:0 "Eau Contaminée par le VEF"
+
+ ENC_radio_eyebots:0 "Radio Eyebot"
+
+ ENC_emergency_draft:0 "Projet d'Urgence"
+ enc_depot_mexican_robots:0 "Designs du Tlaloc"
+ enc_depot_mexican_robots_desc:0 "Bien que malheureusement l'homme qui a proposé de pirater Tlaloc soit un réformiste qui a subi un accident lié à une grenade à plasma, nous pouvons toujours imiter les conceptions des robots de Tlaloc. D'une certaine manière, il est plus humain que la plupart des mutants qui infestent l'Amérique."
+################ DECISIONS!!! ################################################################################################################################
+
+ ENC_calling_the_remnants:0 "Appeler les Restes"
+ ENC_hide_activity:0 "Cacher Notre Activité à la RNC"
+ ENC_shock_and_awe:0 "Choc et Stupeur"
+ ENC_coup_reno:0 "Pustch à New Reno"
+
+ calling_the_remnants_tt:0 "Vous permet de dépenser £pol_power §YPoids Politique§! pour appeler chez vous des Restes de l'Enclaves comme £manpower_texticon §YRéserves§! ."
+
+ ENC_setting_examples_purity:0 "Donnez des exemples"
+ ENC_setting_examples_reform:0 "Donnez des exemples"
+
+ ncr_suspicion_plus_10:0 "§YSoupçon de la RNC§! est augmenté de £poids politique §R10§!\n"
+################ special codes for special people ################################################################################################################
+
+# yellow§Ytext§!
+# £air_experience_20x20
+# £army_experience_20x20
+# £autonomy_texticon
+# £civ_factory
+# £civ_factory_output
+# £command_power_20x20
+# £convoy_texticon
+# £daynight_text
+# £decision_icon_small
+# £decrease_reversed_texticon
+# £decrease_texticon
+# £divisions
+# £efficiency_cap_texticon
+# £efficiency_texticon
+# £increase_reversed_texticon
+# £increase_texticon
+# £infinity_icon
+# £infrastructure_texticon
+# £location_pointer
+# £locked
+# £manpower_texticon
+# £mapicon_port_strike_result_text
+# £mission_efficiency_strip
+# £national_unity_texticon
+# £nato_unit_anti_air_icon_small
+# £nato_unit_anti_tank_icon_small
+# £nato_unit_artillery_icon_small
+# £nato_unit_cavalry_icon_small
+# £nato_unit_engineer_icon_small
+# £nato_unit_heavy_armor_icon_small
+# £nato_unit_infantry_icon_small
+# £nato_unit_light_armor_icon_small
+# £nato_unit_marine_icon_small
+# £nato_unit_mechanized_icon_small
+# £nato_unit_medium_armor_icon_small
+# £nato_unit_modern_armor_icon_small
+# £nato_unit_motorized_artillery_icon_small
+# £nato_unit_motorized_icon_small
+# £nato_unit_mountaineers_icon_small
+# £nato_unit_paratrooper_icon_small
+# £nato_unit_recon_icon_small
+# £nato_unit_rocket_artillery_icon_small
+# £nato_unit_super_heavy_armor_icon_small
+# £navy_experience_20x20
+# £organization_texticon
+# £pol_idea_texticon
+# £pol_power_20x20
+# £production_cost
+# £production_naval_cost
+# £right_arrow_texticon
+# £ship_battlecruiser_icon_small
+# £ship_battleship_icon_small
+# £ship_carrier_icon_small
+# £ship_destroyer_icon_small
+# £ship_heavy_cruiser_icon_small
+# £ship_light_cruiser_icon_small
+# £ship_sh_battleship_icon_small
+# £ship_submarine_icon_small
+# £ship_transport_icon_small
+# £stability_texticon
+# £strenght_texticon
+# £supply_texticon
+# £support_AA_small
+# £support_art_small
+# £support_AT_small
+# £support_engineer_small
+# £support_field_hospital_small
+# £support_logistics_small
+# £support_maintenance_small
+# £support_military_police_small
+# £support_rocket_art_small
+# £support_signal_small
+# £technology_texticon
+# £temperature_text
+# £trigger_no
+# £trigger_yes
+# £unit_anti_air_icon_small
+# £unit_anti_tank_icon_small
+# £unit_artillery_icon_small
+# £unit_bicycle_infantry_icon_small
+# £unit_cavalry_icon_small
+# £unit_engineer_icon_small
+# £unit_heavy_armor_icon_AA_small
+# £unit_heavy_armor_icon_art_small
+# £unit_heavy_armor_icon_AT_small
+# £unit_heavy_armor_icon_small
+# £unit_infantry_icon_small
+# £unit_light_armor_icon_art_AA_small
+# £unit_light_armor_icon_art_AT_small
+# £unit_light_armor_icon_art_small
+# £unit_light_armor_icon_small
+# £unit_marine_icon_small
+# £unit_mechanized_icon_small
+# £unit_medium_armor_icon_AA_small
+# £unit_medium_armor_icon_art_small
+# £unit_medium_armor_icon_AT_small
+# £unit_medium_armor_icon_small
+# £unit_modern_armor_icon_AA_small
+# £unit_modern_armor_icon_art_small
+# £unit_modern_armor_icon_AT_small
+# £unit_modern_armor_icon_small
+# £unit_motorized_artillery_icon_small
+# £unit_motorized_icon_small
+# £unit_mountaineers_icon_small
+# £unit_paratrooper_icon_small
+# £unit_recon_icon_small
+# £unit_rocket_artillery_icon_small
+# £unit_super_heavy_armor_icon_AA_small
+# £unit_super_heavy_armor_icon_art_small
+# £unit_super_heavy_armor_icon_AT_small
+# £unit_super_heavy_armor_icon_small
+# £victory_point_texticon
+# £weather_text
+# £wing_rebase_status_texticon
